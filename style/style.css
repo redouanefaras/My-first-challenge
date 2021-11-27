@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body{
+    font-family: 'Poppins', sans-serif
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .head-title{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4% 0 4%;
+      }
+
+      #first-titles{
+          font-size: 30px;
+      }
+
+      .main{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 32px;      }
+
+      .panel{
+          border-radius: 12px;
+          padding: 30px;
+          width: 350px;
+          height: 250px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          box-shadow: -5px 10px 20px rgba(0,0,0,0.3);          
+      }
+
+      .red{
+        border-top: 4px solid hsl(0, 78%, 62%)
+      }
+
+      .cyan{
+          border-top: 4px solid hsl(180, 62%, 55%);
+      }
+
+      .orange{
+          border-top: 4px solid  hsl(34, 97%, 64%);
+      }
+
+      .bleu{
+          border-top: 4px solid hsl(212, 86%, 64%);
+      }
+
+      .midel{
+          display: flex;
+          flex-direction: column;
+          gap: 32px;
+      }
+
+      .imag{
+          display: flex;
+          justify-content: flex-end;
+      }
+
+
